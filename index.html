@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Sophia Jenitta</title>
+
+    <!-- Tailwind CDN CSS Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+
+    <!-- My Stylesheet -->
+    <link rel="stylesheet" href="./index.css">
+
+    <!--Link Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet"></head>
+<body>
+    <!-- Responsive NavBar -->
+    <nav class="bg-purple-600 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl font-bold text-white">Portfolio</h1>
+
+        <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-8 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+
+        <ul class="flex gap-5 text-xl text-white hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black" href="#about">About</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-black" href="#skills">Skills</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-black" href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-black" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--Side Bar-->
+    <section id="sidenav" class="bg-purple-100 fixed z-30 top-0 transition-all duration-1000 " style="width: 50%; height: 100vh; right: -50%;">
+        <div class="text-right p-5">
+            <p id="close-nav" class="cursor-pointer">X</p>
+        </div>
+        <ul class="flex flex-col gap-10 items-center text-purple-600">            
+                <li>
+                    <a class="hover:underline hover:text-black" href="#about">About</a>
+                </li>
+    
+                <li>
+                    <a class="hover:underline hover:text-black" href="#skills">Skills</a>
+                </li>
+    
+                <li>
+                    <a class="hover:underline hover:text-black" href="#projects">Projects</a>
+                </li>
+    
+    
+                <li>
+                    <a class="hover:underline hover:text-black" href="#contact">Contact</a>
+                </li>
+           
+        </ul>
+    </section>
+
+    <!--Header Section-->
+    <section class="bg-black  flex justify-evenly p-10 md:p-3 rounded-md text-white font-bold ">        
+       
+        <div class='text-xl font-bold md:text-6xl '>
+            <h1>Hi !!</h1>
+            
+            <h1 style="font-family:Dancing Script; font:bold">am Sophia Jenitta</h1>
+            <p class="type text-large md:p-5 md:text-3xl">Web Developer</p>
+            <div class="md:p-4">
+            <a href="https://www.linkedin.com/in/sophyjen/" target="_blank"><i class="fa-brands fa-linkedin fa-large   animate-pulse" style="color: #74C0FC;"></i></a>
+            <a href="https://github.com/sophyjen" target="_blank"><i class="faicon fa-brands fa-github fa-large" style="color: #74C0FC;"></i></a>    
+        </div>
+            <div class="p-4">
+                <a href="./images/Sophia Jenitta Resume.pdf" download="Sophia's Resume" target="_blank" >
+                    <h1 class="p-1 border rounded-md w-40 h-10 text-xl font-bold colorchange">Resume</h1> 
+                </a>
+            </div>
+            
+        </div>
+        <div  class="md:block " style="sha">
+            <img class="imgshadow  w-52 h-52 md:w-96 md:h-96 rounded-full" src="./images/sophy.JPG" alt="Sophia" />
+        </div>
+            
+            
+    </section>
+
+     <!--About Section-->
+     <section id="about" class="bg-purple-300 rounded-md">
+        <h1 style="color: #ec4899; font-weight: bold; text-align: center;"  class="mt-5 text-xl md:text-3xl">About Me</h1>
+        <div class="p-2 m-2 border solid white text-blue-900 md:text-xl rounded-md">  
+            <p class="hover:bg-purple-600 hover:text-white  ">Hi! I'm Sophia Jenitta, an enthusiastic and detail-oriented educator turned aspiring Full Stack Developer. With over 9 years of experience in teaching IT and Mathematics based on the Cambridge curriculum, I’ve led both students and teachers with passion and precision. As the Head of IT and Math Department at The Lords' International School, I’ve guided students through a dynamic academic journey while developing digital solutions to enhance their learning.
+            <br /> <br />        
+            During my career, I adapted to online teaching quickly, leading the integration of technology using Google Education tools and facilitating remote learning during the pandemic. Beyond teaching, I managed exam operations for eight years, coordinating CAIE exams with the utmost care and accuracy.
+            <br /> <br />
+            Currently, I am pursuing a career shift into Full Stack Development, exploring the latest web technologies. My portfolio includes projects such as a Nostra e-commerce clone, Greenden landing page clone, and a dynamic student form application built with HTML, CSS, JavaScript, and ReactJS. With my natural ability to teach, love for coding, and knack for problem-solving, I aim to create user-friendly web applications that bridge technology and education.</p>
+          </div>     
+    </section>
+
+    <!--Skills Section-->
+    <section id="skills" class="bg-black rounded-md">
+        <div>        
+            <h1 style="color: #ec4899; font-weight: bold; text-align: center;"  class="mt-5 text-xl md:text-3xl">Skills</h1>
+            <ul style="color: white; font-weight: bold; text-align: center;"  class="text-base md:text-2xl p-3 flex flex-row justify-evenly">
+                <div>
+                    <li>Web Development</li>   
+                    <span style="color: greenyellow; font-size: 17px;" class="text-xs md:text-sm animate-pulse"> (HTML, CSS, Javascript, React) </span>
+                </div>
+                <div>
+                    <li>Ms Office </li>
+                    <span style="color: greenyellow; font-size: 17px;" class="animate-pulse"> (Excel, Access, PowerPoint, Word) </span>
+                </div>
+                
+                <div>
+                    <li>Adobe </li>
+                    <span style="color: greenyellow; font-size: 17px;" class="animate-pulse"> (Animate, Photoshop, Illustrator) </span>
+                </div>
+                
+                <div>
+                    <li>Python Programming</li>
+                </div>
+            </ul>
+        </div>     
+    </section>
+
+    <!--Projects Section-->
+    <section id="projects" class="bg-gray-400 ">
+        <div>        
+            <h1 style="color: #ec4899; font-weight: bold; text-align: center;"  class="mt-5 text-xl md:text-3xl">Projects</h1>
+            <div class="grid grid-cols-2 md:grid-cols-4 justify-between">
+                
+                <div class="w-auto border border-blue-900 border-solid rounded-md p-5 m-5 hover:bg-purple-100" >
+                    <h1 class="text-base md:text-large font-bold" style="color: darkblue; ">Portfolio Website</h1>
+                    <br />
+                    <img src="./images/portfolio.JPG" alt="Portfolio" style="border-radius: 5px; width: auto; height: auto;">
+                    <br />
+                    <p class="text-xs md:text-base" style="color: darkblue;">I’ve built a responsive portfolio page using HTML and CSS, designed to look great on all screen sizes. The layout includes sections for About Me, Skills, Projects, and Contact, along with a header for navigation and resume download. Using flex and grid layouts, the page smoothly transitions to a single-column view on smaller screens, thanks to media queries. It’s been a rewarding experience applying responsive design principles, and I’m excited for the next steps in my journey!</p>
+                    <p >Checkout my site: <a href="" target="_blank" style="font-weight: bold; text-decoration: underline; color: aqua; color: darkblue;">Portfolio</a></p>
+                </div>
+
+                <div class="w-auto border border-blue-900 border-solid rounded-md p-5 m-5 hover:bg-green-50">
+                    <h1 class="text-base md:text-large font-bold" style="color: darkblue; ">E-commerce Website</h1>
+                    <br />
+                    <img src="./images/Greenden.JPG" alt="Portfolio" style="border-radius: 5px; width: auto; height: auto;">
+                    <br />
+                    <p class="text-xs md:text-base" style="color: darkblue;">I’ve been diving deeper into HTML, CSS, and JavaScript, exploring new tags and controls to enhance functionality. Excited to share that I’ve updated the product page, now featuring search options for easier navigation and an optimized menu list for smaller screens.</p>
+                    <br />
+                    <p >Checkout my site: <a href="https://sophyjen.github.io/greenden-tailwind/" target="_blank" style="font-weight: bold; text-decoration: underline; color: aqua; color: darkblue; ">Greenden Clone</a></p>
+                </div>
+
+                <div class="w-auto border border-blue-900 border-solid rounded-md p-5 m-5 hover:bg-red-100">
+                    <h1 class="text-base md:text-large font-bold" style="color: darkblue; ">Student Details Form</h1>
+                    <br />
+                    <img src="./images/student_form.JPG" alt="Portfolio" style="border-radius: 5px; width: auto; height: auto;">
+                    <br />
+                    <p class="text-xs md:text-base" style="color: darkblue;">I've developed a responsive Student Form Page using HTML, CSS, JavaScript, and Regex. This page allows users to insert, delete, update, and validate rows, making it dynamic and user-friendly. It’s also fully responsive for smaller screens, ensuring seamless use across all devices.</p>
+                    <br />
+                    <p >Checkout my site: <a href="https://sophyjen.github.io/StudentForm/" target="_blank" style="font-weight: bold; text-decoration: underline; color: aqua; color: darkblue;">Student Form</a></p>
+                </div>
+                
+                <div class=" w-auto border border-blue-900 border-solid rounded-md p-5 m-5 hover:bg-blue-200">
+                    <h1 class="text-base md:text-large font-bold" style="color: darkblue; ">API Website</h1>
+                    <br />
+                    <img src="./images/weatherapi.JPG" alt="Portfolio" style="border-radius: 5px; width: auto; height: auto;">
+                    <br />
+                    <p class="text-xs md:text-base" style="color: darkblue;">Using React API, HTML, and Tailwind CSS, I built an interactive weather report app that displays the current weather of any specific city. This project was a great way to sharpen my React skills, especially in working with APIs and creating a smooth, user-friendly design.</p>
+                    <br />
+                    <p >Checkout my site: <a href="" target="_blank" style="font-weight: bold; text-decoration: underline; color: aqua; color: darkblue;">Weather APi</a></p>
+                </div>
+            </div>
+        </div>     
+    </section>    
+
+     <!--Contact Section-->
+     <section id="contact" class="bg-purple-500 text-2xl rounded-md" style="text-align: center;"> 
+            <div>
+                <h1 style="color: #a5f3fc; text-decoration: underline; font-weight: bold;" class="mb-2 mt-2">Contact Me</h1> 
+            </div>
+            <div class="mt-3 flex justify-center gap-3">    
+                <div class="tooltip">
+                    <a><i class="fa-solid fa-envelope fa-xl fa-flip" style="color: #a5f3fc;"></i></a>
+                    <span class="tooltiptext">sophyjen@gmail.com</span>
+                </div>   
+                
+                <div class="tooltip">
+                    <a><i class="fa-brands fa-whatsapp fa-xl fa-bounce" style="color: #a5f3fc;"></i></i></a>    
+                    <span class="tooltiptext">+91 9710418971</span>
+                </div> 
+                <a href="https://www.linkedin.com/in/sophyjen/" target="_blank"><i class="fa-brands fa-linkedin fa-xl animate-pulse" style="color: #a5f3fc;"></i></a>
+                <a href="https://github.com/sophyjen" target="_blank"><i class="fa-brands fa-github fa-xl animate-spin" style="color: #a5f3fc; "></i></a>    
+             </div>  
+             <div>
+                <p class="p-3 font-bold text-pink-500 text-base ">@ Sophia Jenitta 2024</p>
+             </div>          
+         
+    </section>
+   
+</body>
+ <script src="./index.js"></script>
+</html>
